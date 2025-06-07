@@ -1,0 +1,8 @@
+
+body { font-family: sans-serif; background: #111; color: #eee; padding: 1rem; }
+header { display: flex; justify-content: space-between; align-items: center; }
+.card { background: #222; margin: 1rem 0; padding: 1rem; border-radius: 8px; }
+.card img { max-width: 100%; border-radius: 8px; }
+#admin-panel { position: fixed; top: 0; right: 0; background: #333; padding: 1rem; width: 300px; height: 100%; overflow: auto; transition: transform 0.3s ease; transform: translateX(100%); }
+#admin-panel.hidden { transform: translateX(0); }
+input { display: block; width: 100%; margin-bottom: 0.5rem; padding: 0.5rem; }

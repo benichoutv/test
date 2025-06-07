@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini App Telegram - Démo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ma Mini-App</h1>
+    <button onclick="toggleAdminPanel()">Gérer</button>
+  </header>
+
+  <main id="product-container"></main>
+
+  <div id="admin-panel" class="hidden">
+    <h2>Ajouter un post</h2>
+    <input type="text" id="title" placeholder="Titre" />
+    <input type="text" id="desc" placeholder="Description" />
+    <input type="url" id="imgUrl" placeholder="Image URL" />
+    <button onclick="addProduct()">Ajouter</button>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
